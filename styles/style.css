@@ -32,3 +32,39 @@
     font-weight: 700;
     margin-top: 25px;
 }
+.banner-description{
+    color: #444343;
+}
+
+/* Failure tab styles */
+.failures-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 130px;
+}
+.failures-content{
+    width: 420px;
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.failure-description{
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #444343;
+}
+.failure-item li{
+    color: #444343;
+    list-style: none;
+    line-height: 30px;
+    margin-left: -38px;
+}
+.failure-item li i{
+    color: rgb(109, 202, 109);
+}
