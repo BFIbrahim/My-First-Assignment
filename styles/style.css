@@ -68,6 +68,8 @@
 .failure-item li i{
     color: rgb(109, 202, 109);
 }
+
+/* plan styles */
 .plan-container{
     text-align: center;
     margin-top: 130px;
@@ -94,3 +96,45 @@
     font-weight: 600;
     color:#737272;;
 }
+
+/* mindset styles */
+.mindset{
+    margin-top: 130px;
+}
+.mindset-container{
+    background-image: url('../images/watch.png');
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+
+}
+.mindset-container img{
+    width: 100%;
+}
+
+.gradient{
+    border-radius: 5px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0.836) , rgba(255, 255, 255, 0));
+}
+.gradient h2{
+    padding: 60px 0px 20px 50px;
+    width: 70%;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.gradient button{
+    margin-left: 50px;
+    border: none;
+    padding: 20px;
+    width: 160px;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
