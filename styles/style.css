@@ -36,7 +36,10 @@
     color: #444343;
 }
 
-/* Failure tab styles */
+/* Failure tab and Success tab styles */
+img.person-image {
+    width: 600px;
+}
 .failures-container{
     display: flex;
     gap: 80px;
@@ -45,9 +48,6 @@
     width: 80%;
     margin: auto;
     margin-top: 130px;
-}
-.failures-content{
-    width: 420px;
 }
 .failure-title{
     font-size: 40px;
@@ -183,3 +183,4 @@
     font-weight: 700;
     font-size: 20px;
 }
+
